@@ -84,9 +84,6 @@ def show_main_app():
 
     pg = st.navigation(pages=[dashboard_page, portfolio_page, analyse_page, favoriten_page, search_page, ausloggen_page])
 
-    # --- Überall sichtbar ---
-    st.logo("assets/Fincrawl.png")
-
     # --- Run ---
     pg.run()
 
